@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/scorezone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Score lightweight zone statistics from stdin samples.",
+  "bin": {
+    "scorezone": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/scorezone.git"
+  },
+  "homepage": "https://theworker02.github.io/scorezone/",
+  "keywords": [
+    "score",
+    "zone",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
